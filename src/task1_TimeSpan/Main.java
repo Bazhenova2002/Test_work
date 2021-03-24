@@ -2,7 +2,7 @@ package task1_TimeSpan;
 
 public class Main {
     public static void main(String[] args) {
-        TimeSpan timeSpan1 = new TimeSpan(2, 15);
+        TimeSpan timeSpan1 = new TimeSpan(4, 15);
         TimeSpan timeSpan2 = new TimeSpan(2, 10);
         timeSpan1.add(timeSpan2);
         System.out.println("add = " + timeSpan1.toString());
